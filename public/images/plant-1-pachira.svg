@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#c8e6c9"/>
+    </linearGradient>
+    <linearGradient id="trunk1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5d4037"/>
+      <stop offset="50%" stop-color="#795548"/>
+      <stop offset="100%" stop-color="#6d4c41"/>
+    </linearGradient>
+    <linearGradient id="leaf1a" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+    <linearGradient id="leaf1b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#388e3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg1)" rx="20"/>
+  <!-- Pot -->
+  <path d="M155 340 L160 380 L240 380 L245 340 Z" fill="#8d6e63" rx="4"/>
+  <rect x="148" y="330" width="104" height="16" rx="6" fill="#a1887f"/>
+  <!-- Braided trunk -->
+  <path d="M190 330 C185 300 195 280 188 250 C182 220 195 200 190 180" stroke="url(#trunk1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M210 330 C215 300 205 280 212 250 C218 220 205 200 210 180" stroke="url(#trunk1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <g transform="translate(200,170)">
+    <ellipse cx="-50" cy="-40" rx="35" ry="18" fill="url(#leaf1a)" transform="rotate(-40 -50 -40)"/>
+    <ellipse cx="50" cy="-40" rx="35" ry="18" fill="url(#leaf1b)" transform="rotate(40 50 -40)"/>
+    <ellipse cx="-20" cy="-70" rx="30" ry="16" fill="url(#leaf1a)" transform="rotate(-20 -20 -70)"/>
+    <ellipse cx="20" cy="-70" rx="30" ry="16" fill="url(#leaf1b)" transform="rotate(20 20 -70)"/>
+    <ellipse cx="0" cy="-90" rx="28" ry="15" fill="#43a047"/>
+    <ellipse cx="-65" cy="-10" rx="32" ry="15" fill="url(#leaf1b)" transform="rotate(-55 -65 -10)"/>
+    <ellipse cx="65" cy="-10" rx="32" ry="15" fill="url(#leaf1a)" transform="rotate(55 65 -10)"/>
+    <ellipse cx="-35" cy="-85" rx="25" ry="13" fill="#4caf50" transform="rotate(-30 -35 -85)"/>
+    <ellipse cx="35" cy="-85" rx="25" ry="13" fill="#388e3c" transform="rotate(30 35 -85)"/>
+  </g>
+  <!-- Subtle light effect -->
+  <circle cx="160" cy="120" r="80" fill="white" opacity="0.08"/>
+</svg>

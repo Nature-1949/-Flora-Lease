@@ -58,7 +58,7 @@ export default function ProfileView() {
         <div className="space-y-4">
           <div className="bg-surface-container-low p-5 rounded-2xl flex items-center gap-5 cursor-pointer hover:bg-white transition-colors">
             <div className="w-16 h-16 rounded-xl overflow-hidden bg-white">
-              <img src="https://lh3.googleusercontent.com/aida/ADBb0ujmMBDPKlD5IvMNEkcpvCSUeTudoqk5b7I1_62NlZ2zV5bh9Zp4_-ytH0r5IqerE06Rj15NIYWLdcV_A48tnlipFz3L8yhoni0MylD81WR0x-LcVs1VLPzDWLsDWvLRGnklQjOj7YTlttXqCwBsi6fVbtxLvdNUrsrJqIOcpDoZNluYrvtMd7ALBaBWq6BbTeQLjTO-gpcac8KKF33XotdYoVgb3iKfjBb7j9bOcHghgn1nI9kMrw0s0bG8XQQJflqKKnRH9StDbW4" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+              <img src="/images/plant-4-orchid.svg" className="w-full h-full object-cover" />
             </div>
             <div className="flex-1">
               <div className="flex justify-between items-start">
